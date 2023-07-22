@@ -1,0 +1,99 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos do cabeçalho */
+.cabecalho {
+    background-color: #36004b;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-imagem {
+    width: 150px;
+}
+
+.cabecalho-nav {
+    display: flex;
+}
+
+.cabecalho-lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.cabecalho-lista-item {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Estilos da seção "Sobre Nós" */
+.sobre-nos {
+    padding: 40px 20px;
+}
+
+.sobre-nos-titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sobre-nos-imagem {
+    margin-top: 20px;
+}
+
+/* Estilos da seção "Estudante" */
+.estudante {
+    background-color: #b3b0b0;
+    padding: 40px 20px;
+}
+
+.estudante h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.estudante-todos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.aluno {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.aluno h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.imagem-estudante {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos do logo do Instagram */
+.instagram-logo {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
